@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,600;1,500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Address Book App</title>
+    <link rel="stylesheet" href="/addbook-fe/css/home.css" />
+  </head>
+
+  <body>
+    <header class="header-content header">
+      <div class="logo-content">
+        <img
+          class="image"
+          src="/addbook-fe/assets/logo.png"
+          alt="logo"
+          width="50"
+          height="55"
+        />
+        <div>
+          <span class="add-text">ADDRESS</span><br />
+          <span class="add-text add-book">BOOK</span>
+        </div>
+      </div>
+    </header>
+    <div class="main-content">
+      <div class="header-content">
+        <span class="header-data"> Person Details </span>
+        <span class="add">
+          <a class="header-add" href="/addbook-fe/pages/addressbook.html">
+            <img src="/addbook-fe/assets/add_white_24dp.svg" height="35px" />Add
+            Person</a
+          >
+        </span>
+      </div>
+      <div class="table-main">
+        <table id="table-display" class="table"></table>
+      </div>
+    </div>
+    <script src="/addbook-fe/js/home.js"></script>
+    <script src="/addbook-fe/js/site-properties.js"></script>
+    <script src="/addbook-fe/js/utility.js"></script>
+    <script src="/addbook-fe/js/addressbookDBservice.js"></script>
+  </body>
+</html>

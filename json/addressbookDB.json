@@ -1,0 +1,31 @@
+{
+    "addressBook": [
+      {
+        "id": 1,
+        "_name": "Shruti Verma",
+        "_address": "Kalyanpur",
+        "_city": "Kanpur",
+        "_state": "Uttar Pradesh",
+        "_zipCode": 208017,
+        "_phoneNo": 7376563320
+      },
+      {
+        "id": 2,
+        "_name": "Shriya Goyal",
+        "_address": "Lane no 2",
+        "_city": "Surat",
+        "_state": "Gujarat",
+        "_zipCode": 556677,
+        "_phoneNo": 9988776655
+      },
+      {
+        "id": 3,
+        "_name": "Vidit Pandey",
+        "_address": "House no 435",
+        "_city": "Bnagalore",
+        "_state": "Karnataka",
+        "_zipCode": 774433,
+        "_phoneNo": 9876543257
+      }
+    ]
+  }
